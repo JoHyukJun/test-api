@@ -1,0 +1,11 @@
+# Python packages required for main.py
+
+django
+djangorestframework
+
+psycopg2
+
+requests
+drf-yasg
+
+gunicorn
