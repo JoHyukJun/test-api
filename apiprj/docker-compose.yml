@@ -3,7 +3,7 @@ version: '3'
 services:
   web:
     build: .
-    command: sh -c "gunicorn main.wsgi:application --bind 0.0.0.0:8000"
+    command: sh -c "./run-init-dev.sh"
     volumes:
       - ./:/usr/src/app/
     ports:
