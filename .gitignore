@@ -132,6 +132,4 @@ migrations/
 secrets.py
 .env.prod
 .env.prod.db
-.env.dev
-.env.dev.db
 whole.json
